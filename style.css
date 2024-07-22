@@ -1,6 +1,6 @@
 :root {
   --animation-duration: 1.5s;
-  --circle-diameter: 50px;
+  --circle-diameter: 250px;
   --circle-scale-percent: 0.2;
 }
 
@@ -11,7 +11,10 @@ body {
   width: 100%;
   height: 100vh;
 }
-
+h1 {
+  position: center;
+  align-items: center;
+}
 #loader {
   position: relative;
   left: calc(var(--circle-diameter) * -1);
