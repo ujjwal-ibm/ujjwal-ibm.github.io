@@ -152,7 +152,7 @@ ul a:before {
 /* Skill bubbles base styles */
 .skill-bubble {
     height: auto; /* Let height adjust to content */
-    width: 250px;
+    width: 350px;
     padding: 20px;
     position: fixed; /* Changed to fixed for extreme positioning */
     color: #2F2606;
@@ -164,33 +164,33 @@ ul a:before {
 
 /* Left side bubbles */
 .languages-bubble {
-    left: 100px;
+    left: 50px;
     top: 180px;
 }
 
 .devops-bubble {
-    left: 100px;
+    left: 50px;
     top: 400px;
 }
 
 .frameworks-bubble {
-    left: 100px;
+    left: 50px;
     top: 620px;
 }
 
 /* Right side bubbles */
 .cloud-bubble {
-    right: 100px;
+    right: 50px;
     top: 180px;
 }
 
 .modern-bubble {
-    right: 100px;
+    right: 50px;
     top: 400px;
 }
 
 .concepts-bubble {
-    right: 100px;
+    right: 50px;
     top: 620px;
 }
 
@@ -233,7 +233,7 @@ ul a:before {
         right: auto !important;
         margin: 20px auto;
         width: 90%;
-        max-width: 250px;
+        max-width: 350px;
     }
     
     .skills-wrapper {
