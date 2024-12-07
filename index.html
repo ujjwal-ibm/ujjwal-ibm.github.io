@@ -1,26 +1,251 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ujjwal-ibm</title>
-  <link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <title>Hello, I'm Ujjwal</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ujjwal-ibm</title>
-    <meta charset="UTF-8" />
-  </head>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <a href="#about" class="nav-link active">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </ul>
+        </nav>
+    </header>
 
-  <body>
-    <div id="app">
-      <div id="loader"><h1>ujjwal-ibm</h1></div>
-    </div>
+    <main>
+        <section id="about" class="section active">
+            <div id="scene-container"></div>
+        </section>
 
-    <script src="src/styles.css"></script>
-  </body>
-</html>
+        <section id="experience" class="section">
+          <div class="timeline-container">
+              <ul class="timeline">
+                  <!-- IBM -->
+                  <li class="timeline-item">
+                      <div class="timeline-content">
+                          <div class="timeline-date">2021 - Present</div>
+                          <h3 class="timeline-title">IBM India</h3>
+                          <div class="timeline-role">Senior Cloud Developer</div>
+                          <ul class="timeline-details">
+                              <li>Terraform provider and packer development for IBM cloud (opensource)</li>
+                              <li>Go, Node, Python and Java SDK development</li>
+                              <li>Cloud architecture and OpenAPI specification</li>
+                          </ul>
+                      </div>
+                  </li>
+      
+                  <!-- Techmojo -->
+                  <li class="timeline-item">
+                      <div class="timeline-content">
+                          <div class="timeline-date">2020 - 2021</div>
+                          <h3 class="timeline-title">Techmojo Solutions</h3>
+                          <div class="timeline-role">Senior Software Developer</div>
+                          <ul class="timeline-details">
+                              <li>Gaming domain development</li>
+                              <li>Payment and promotion modules</li>
+                              <li>Node.js, Python, Spring Boot microservices</li>
+                          </ul>
+                      </div>
+                  </li>
+      
+                  <!-- Virtusa -->
+                  <li class="timeline-item">
+                      <div class="timeline-content">
+                          <div class="timeline-date">2019 - 2020</div>
+                          <h3 class="timeline-title">Virtusa Corporation</h3>
+                          <div class="timeline-role">Senior Software Engineer</div>
+                          <ul class="timeline-details">
+                              <li>Spring Boot microservices on private cloud (Cloud Foundry)</li>
+                              <li>Banking domain US client</li>
+                              <li>Led migration to event-driven architecture</li>
+                          </ul>
+                      </div>
+                  </li>
+      
+                  <!-- Deloitte -->
+                  <li class="timeline-item">
+                      <div class="timeline-content">
+                          <div class="timeline-date">2017 - 2019</div>
+                          <h3 class="timeline-title">Deloitte Consulting</h3>
+                          <div class="timeline-role">Software Development Engineer</div>
+                          <ul class="timeline-details">
+                              <li>Cloud migration to Pivotal and AWS</li>
+                              <li>E-commerce microservices development</li>
+                              <li>Data science projects using Spring Boot, Kafka, JSP</li>
+                          </ul>
+                      </div>
+                  </li>
+      
+                  <!-- Infosys -->
+                  <li class="timeline-item">
+                      <div class="timeline-content">
+                          <div class="timeline-date">2015 - 2017</div>
+                          <h3 class="timeline-title">Infosys Ltd</h3>
+                          <div class="timeline-role">Software Development Engineer</div>
+                          <ul class="timeline-details">
+                              <li>Nia expert team - AI Platform</li>
+                              <li>Platform development using Java</li>
+                              <li>Automation tools and PMA creation</li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </section>
+
+        <section id="skills" class="section">
+          <div class="skills-container">
+              <div class="skills-wrapper">
+                  <span class="skill-title title-large">Senior</span>
+                  <span class="skill-title title-mega">Cloud</span>
+                  <span class="skill-title title-medium">Developer</span>
+      
+                  <div class="skill-bubble languages-bubble">
+                      <span class="bubble-arrow"></span>
+                      <strong><h3>Languages</h3></strong><br/>
+                      Golang<br/>
+                      Core Java<br/>
+                      Python<br/>
+                      Terraform<br/>
+                      Packer<br/>
+                      R Programming
+                  </div>
+      
+                  <div class="skill-bubble cloud-bubble">
+                      <span class="bubble-arrow"></span>
+                      <strong><h3>Cloud</h3></strong><br/>
+                      AWS<br/>
+                      GCP<br/>
+                      IBM Cloud<br/>
+                      PCF<br/>
+                      Heroku
+                  </div>
+      
+                  <div class="skill-bubble devops-bubble">
+                      <span class="bubble-arrow"></span>
+                      <strong><h3>DevOps</h3></strong><br/>
+                      Kubernetes<br/>
+                      Docker<br/>
+                      Jenkins<br/>
+                      Bamboo<br/>
+                      CI/CD<br/>
+                      Git
+                  </div>
+      
+                  <div class="skill-bubble modern-bubble">
+                      <span class="bubble-arrow"></span>
+                      <strong><h3>Modern Tech</h3></strong><br/>
+                      GenAI Tools<br/>
+                      RAG<br/>
+                      Machine Learning<br/>
+                      OpenAPI<br/>
+                      SDK Development
+                  </div>
+      
+                  <div class="skill-bubble frameworks-bubble">
+                      <span class="bubble-arrow"></span>
+                      <strong><h3>Frameworks</h3></strong><br/>
+                      Spring Boot<br/>
+                      Microservices<br/>
+                      Kafka<br/>
+                      ELK Stack<br/>
+                      Node.js
+                  </div>
+      
+                  <div class="skill-bubble concepts-bubble">
+                      <span class="bubble-arrow"></span>
+                      <strong><h3>Core Concepts</h3></strong><br/>
+                      OOP<br/>
+                      Data Structures<br/>
+                      DDD<br/>
+                      Design Patterns<br/>
+                      Cloud Architecture
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="project-container">
+            <ul class="project-grid">
+                <li>
+                    <a href="#">
+                        <img src="/api/placeholder/200/200" alt="E-Com">
+                        <span class="project-name">E-Com</span>
+                    </a>
+                    <div class="project-details">
+                        <img src="/api/placeholder/500/300" alt="E-Com Screenshot">
+                        <div class="project-info">
+                            <h3>E-Com</h3>
+                            <p>Microservice based application, deployed on PCF</p>
+                            <div class="tech-stack">
+                                <span>Microservices</span>
+                                <span>PCF</span>
+                                <span>Cloud Native</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li>
+                    <a href="#">
+                        <img src="/api/placeholder/200/200" alt="Ticket Routing">
+                        <span class="project-name">Ticket Routing Algorithm</span>
+                    </a>
+                    <div class="project-details">
+                        <img src="/api/placeholder/500/300" alt="Ticket Routing Screenshot">
+                        <div class="project-info">
+                            <h3>Ticket Routing Algorithm</h3>
+                            <p>Reduced Hops using Machine learning</p>
+                            <div class="tech-stack">
+                                <span>ML</span>
+                                <span>Python</span>
+                                <span>Data Science</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+    
+                <!-- More projects following same pattern -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-container">
+          <h2 class="contact-heading">Get In Touch</h2>
+          
+          <div class="contact-content">
+              <div class="contact-info">
+                  <div class="contact-item">
+                      <span class="contact-label">Email</span>
+                      <a href="mailto:ramuklawjju@outlook.com" class="contact-value">ramuklawjju@outlook.com</a>
+                  </div>
+                  
+                  <div class="contact-item">
+                      <span class="contact-label">LinkedIn</span>
+                      <a href="https://in.linkedin.com/in/ramuklawjju" class="contact-value">in.linkedin.com/in/ramuklawjju</a>
+                  </div>
+  
+                  <div class="contact-item">
+                      <span class="contact-label">GitHub</span>
+                      <a href="https://github.com/ujjwal-ibm" class="contact-value">github.com/ujjwal-ibm</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    </main>
+
+    <script src="./r128/three.min.js"></script>
+    <script src="./gsap/3.7.1/gsap.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
