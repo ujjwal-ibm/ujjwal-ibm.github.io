@@ -546,6 +546,18 @@ ul a:before {
     gap: 2rem;
 }
 
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-label {
+    color: #8B6914;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+}
+
 .contact-value {
     color: #5a4719;
     text-decoration: none;
