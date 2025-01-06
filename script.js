@@ -69,10 +69,10 @@ function isPositionAvailable(position, sphereSize) {
     return true;
 }
 const sphereGroups = [
-    { count: 1200, size: 0.65 },   // Large spheres
-    { count: 2400, size: 0.44 },  // Medium spheres
-    { count: 3600, size: 0.33 },  // Small spheres
-    { count: 4800, size: 0.22 }   // Tiny spheres for gaps
+    { count: 800, size: 0.65 },   // Large spheres
+    { count: 1600, size: 0.44 },  // Medium spheres
+    { count: 2400, size: 0.33 },  // Small spheres
+    { count: 3200, size: 0.22 }   // Tiny spheres for gaps
 ];
 
 function init() {
